@@ -9,4 +9,10 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
 
+    fun homeWork1(args: Array<String>) {
+
+        data class Person(val name: String, val age: Int)
+
+
+    }
 }
