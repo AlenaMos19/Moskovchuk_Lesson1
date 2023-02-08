@@ -16,6 +16,10 @@ class MainActivity : AppCompatActivity() {
         val person1 = Person("Kate", 39)
         val person2 = Person("Alex", 25)
         val person3 = Person("Mike", 50)
+        val person4 = Person("Sofi", 16)
+
+        val listForExcursion: MutableList<Person> = mutableListOf(person1, person2, person3)
+        listForExcursion.add(person4)
 
 
     }
