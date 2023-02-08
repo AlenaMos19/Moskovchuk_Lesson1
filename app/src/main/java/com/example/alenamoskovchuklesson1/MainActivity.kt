@@ -13,6 +13,10 @@ class MainActivity : AppCompatActivity() {
 
         data class Person(val name: String, val age: Int)
 
+        val person1 = Person("Kate", 39)
+        val person2 = Person("Alex", 25)
+        val person3 = Person("Mike", 50)
+
 
     }
 }
