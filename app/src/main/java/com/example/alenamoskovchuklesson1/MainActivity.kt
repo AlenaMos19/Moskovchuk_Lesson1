@@ -21,11 +21,13 @@ class MainActivity : AppCompatActivity() {
         val listForExcursion: MutableList<Person> = mutableListOf(person1, person2, person3)
         listForExcursion.add(person4)
 
-        with(person4) {
+        with(person1) {
             when (age) {
                 in 0..17 -> println("$name : Не допускается до экскурсии")
             }
         }
+
+        println("few changes")
 
     }
 }
